@@ -21,8 +21,6 @@ I wanted to get some hands on experience with scheduling in a real time operatin
 | Red, White, BLue LEDs | Illuminate | GPIO |
 | STM32 Nucleo F401-RE | Microcontroller | FreeRTOS |
 
-Include a wiring diagram or photo: `![Wiring](docs/wiring.png)`
-
 ## Software Architecture
 
 Features 4 tasks with different priority levels, and optionally blocks the cpu or uses freertos to allow other tasks to run
